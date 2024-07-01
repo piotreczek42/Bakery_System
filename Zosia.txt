@@ -1,0 +1,6 @@
+Bakery Company
+Date: 2024-07-02
+Customer Name: Zosia
+Product: Cookies
+Quantity: 50
+Price: 200 PLN
