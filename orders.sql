@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Cze 30, 2024 at 09:21 PM
+-- Generation Time: Lip 02, 2024 at 01:41 AM
 -- Wersja serwera: 10.4.32-MariaDB
 -- Wersja PHP: 8.2.12
 
@@ -40,12 +40,10 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`ID`, `customerName`, `customerType`, `product`, `quantity`) VALUES
-(2, 'dasf', 'Individual', 'Bread', 1),
-(3, 'dasf', 'Individual', 'Bread', 4),
-(4, 'dasf', 'Individual', 'Cake', 11),
-(5, 'dasf', 'Company', 'Cake', 11),
-(6, 'asd', 'Individual', 'Cake', 3),
-(7, 'krzysiu', 'Individual', 'Bread', 2);
+(9, 'Piotr', 'Individual', 'Bread', 12),
+(10, 'Jakub', 'Individual', 'Cake', 2),
+(15, 'Cukiernia Zosia', 'Company', 'Cookies', 50),
+(16, 'Zosia', 'Individual', 'Cookies', 50);
 
 --
 -- Indeksy dla zrzutów tabel
@@ -65,7 +63,7 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
